@@ -10,5 +10,6 @@ class Produto:
 
     def __str__(self):
 
-        return (f"Produto[codigo={self.codigo}, nome={self.nome}, "
-            f"categoria={self.categoria}, preco={self.preco:.2f}, fornecedor={self.fornecedor}]")
+        return (f"Produto[codigo = {self.codigo}, nome = {self.nome}, "
+            f"categoria = {self.categoria}, preco = {self.preco:.2f}, fornecedor = {self.fornecedor}]")
+
